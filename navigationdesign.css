@@ -1,0 +1,98 @@
+*{
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+}
+body {
+background-image:url("autumn_scenery_4k-1280x720.jpg");
+background-size:cover;
+background-position:center;
+background-repeat: no-repeat;
+height:800px;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0px;
+overflow: hidden;
+background-color: grey;
+border: 2px solid maroon;
+border-radius:20px;	
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 10px 15px;
+text-decoration: none;
+border-right:2px solid black;
+border-radius:20px;	
+}
+li {
+float: left;
+}
+li a:hover {
+background-color: white;
+color:grey;
+}
+.boxes {
+display: flex;
+justify-content:center;
+}
+.message {
+border-top: 4px solid maroon;
+border-bottom: 4px solid black;
+border-left: 4px solid maroon;
+border-right: 4px solid black;
+font-size: 1.3rem;
+color:white;
+border-radius: 10px;
+box-shadow: .4rem .4rem .2rem grey;
+text-shadow:.1rem .1rem 0 black;
+width:60%;
+padding:25px;
+height:425px;
+margin-top:20px;
+font-weight: bold;
+}
+.reminder{
+border-top: 4px solid maroon;
+border-bottom: 4px solid black;
+border-left: 4px solid maroon;
+border-right: 4px solid black;
+font-size: 1.3rem;
+color:white;
+font-weight: bold;
+border-radius: 10px;
+box-shadow: .3rem .3rem 4px maroon;
+text-shadow:.1rem .1rem 0 black;
+margin-top:4%;
+}
+.locationbox{
+display: flex;
+justify-content:center;
+}
+.locationheader {
+font-size:2em;
+box-shadow: 2px 2px 4px maroon;
+margin:5%;
+width:280px;
+border-radius:20px;	
+text-align:center;
+color:grey;
+text-shadow:2px 2px 2px lightcyan;
+margin-left:80px;
+}
+.location{
+	border-radius: 20px;
+	border: 3px solid black;
+	box-shadow: .3rem .3rem 0 maroon;
+}
+.back {
+float:left;
+border:none;
+background:white;
+box-shadow: .1rem .1rem 0 maroon;
+margin:5px;
+border-radius: 5px;
+border:1px solid black;
+}

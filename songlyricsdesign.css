@@ -1,0 +1,94 @@
+*{
+	font-family: 'Indie Flower', cursive;
+}
+body {
+background-image:url("lower_antelope_canyon_4k-1280x720.jpg");
+background-size:cover;
+background-position:center;
+background-repeat: no-repeat;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0px;
+overflow: hidden;
+background-color: grey;
+border: 2px solid maroon;
+border-radius:20px;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 10px 15px;
+text-decoration: none;
+border-right:2px solid black;
+border-radius:20px;	
+font-weight: bold;
+}
+li {
+float: left;
+}
+li a:hover {
+background-color: white;
+color:grey;
+}
+.lyric {
+display: flex;
+justify-content: space-around;
+
+}
+pre {
+text-align: center;
+font-size: .8em;
+font-weight: normal;
+font-family: verdana;
+color:black;
+}
+.let {
+width:500px;
+background:linear-gradient(white,grey);
+margin-top:2px;
+box-shadow: 2px 2px 15px maroon;
+border:2px solid black;
+margin-bottom:13px;
+border-radius:20px;
+line-height: 25px;
+}
+.audio {
+box-shadow: 2px 2px 15px grey;
+text-shadow:5px 5px 20px maroon;
+border:3px solid black;
+width:300px;
+color: white;
+font-size:1.5em;
+height:10%;
+border-radius:20px;
+visibility:visible;
+}
+.title{
+font-weight: bold;
+background-color:grey;
+padding:15px;
+padding-left: 30px;
+margin-left: 9%;
+text-align:center;
+border-radius:10px;
+border-top:4px solid black;
+border-left:solid black 4px;
+border-bottom:solid maroon 4px;
+border-right:solid maroon 4px;
+font-size:1.1em;
+width:70%;
+align-items:center;
+margin-top:1px;
+}
+.back {
+float:left;
+border:none;
+background:white;
+box-shadow: .1rem .1rem 0 maroon;
+margin:5px;
+border-radius: 5px;
+border:1px solid black;
+}
